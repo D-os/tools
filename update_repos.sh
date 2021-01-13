@@ -13,6 +13,7 @@ echo Will update repos to $ANDROID_BRANCH
 echo
 
 
+export FILTER_BRANCH_SQUELCH_WARNING=1
 BASE=`dirname $0`
 BASE=`readlink -f $BASE`
 cd $BASE
